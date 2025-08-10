@@ -1,7 +1,7 @@
 import { sveltekit } from "@sveltejs/kit/vite";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vitest/config";
-// gruh
+// gruh 2
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	test: {
